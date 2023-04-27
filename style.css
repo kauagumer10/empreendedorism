@@ -13,25 +13,27 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 24px 0;
+    padding: 2px 0;
 }
 
 .cabecalho-imagem{
-    width: 15%;
+    width: 7%;
 }
 
 .cabecalho-lista-item{
   display: inline-block;
   margin: 0 16px;
   font-size: 24px;
+  color: rgb(0, 255, 0);
 }
 
 .escola-imagem{
-    width: 25%;
+    width: 15%;
+    left: 100px 0;
 }
 .escola{
-    background-image: linear-gradient(rgb(0, 109, 0),rgb(0, 204, 0));
-    color: white;
+    background-color: rgb(0, 204, 0);
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,11 +61,14 @@ body{
 .estudante-titulo{
     text-align: center;
     padding: 50px 0;
+    color: white;
+    background-color: rgb(0, 204, 0);
 }
 
 .estudante-todos{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
+    background-color: rgb(0, 204, 0);
 }
 
 .rodape{
@@ -74,4 +79,24 @@ body{
 .rodape-imagem{
     height: 90px;
     padding: 12px 0;
+}
+
+.imagem-empreendedorismo{
+    height: 150px;
+    padding: 24px 0;
+}
+
+.liquidez-titulo{
+    color: white;
+}
+
+.info-liquidez{
+    width: 35%;
+    padding: 24px 0;
+    margin-left: 20%;
+}
+
+.liquidez-info{
+    color: white;
+    margin-left: 7%;
 }
